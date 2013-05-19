@@ -17,17 +17,90 @@ along with Parqueo.  If not, see <http://www.gnu.org/licenses/>.
 #include "vehiculo.h"
 
 std::istream& operator>> (std::istream& in, vehiculoCls& vehiculo) {
+	bool datosLeidos(true);
 	std::string tipo;
+	in.ignore();
 	in >> tipo;
 	if(tipo == "Automovil")
 		vehiculo.mTipo = eTipoVehiculo::automovil;
 	else if(tipo == "Motocicleta")
-			vehiculo.mTipo = eTipoVehiculo::motocicleta;
+		vehiculo.mTipo = eTipoVehiculo::motocicleta;
+	else if(in.fail())
+		datosLeidos = false;
 	else {
 		std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() El tipo de vehículo " << tipo << " es inválido; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
 		exit(1);
 	}
-	in >> vehiculo.mPlaca >> vehiculo.mMarca >> vehiculo.mModelo >> vehiculo.mColor >> vehiculo.mProducido;
+	in.ignore();
+	in >> vehiculo.mPlaca;
+	if(datosLeidos) {
+		if(in.fail()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta la placa de un vehículo; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+	} else {
+		if(!vehiculo.mPlaca.empty()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta el tipo del vehículo " << vehiculo.mPlaca << "; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+		in.clear();
+	}
+	in.ignore();
+	in >> vehiculo.mMarca;
+	if(datosLeidos) {
+		if(in.fail()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta la marca de un vehículo; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+	} else {
+		if(!vehiculo.mPlaca.empty()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta el tipo del vehículo " << vehiculo.mPlaca << "; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+		in.clear();
+	}
+	in.ignore();
+	in >> vehiculo.mModelo;
+	if(datosLeidos) {
+		if(in.fail()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta el modelo de un vehículo; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+	} else {
+		if(!vehiculo.mPlaca.empty()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta el tipo del vehículo " << vehiculo.mPlaca << "; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+		in.clear();
+	}
+	in.ignore();
+	in >> vehiculo.mColor;
+	if(datosLeidos) {
+		if(in.fail()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta el color de un vehículo; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+	} else {
+		if(!vehiculo.mPlaca.empty()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta el tipo del vehículo " << vehiculo.mPlaca << "; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+		in.clear();
+	}
+	in.ignore();
+	in >> vehiculo.mProducido;
+	if(datosLeidos) {
+		if(in.fail()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta el año de un vehículo; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+	} else {
+		if(!vehiculo.mPlaca.empty()) {
+			std::cerr << __FILE__ << " " << __LINE__ << " " << __PRETTY_FUNCTION__ << "() Falta el tipo del vehículo " << vehiculo.mPlaca << "; por favor corrija la planilla y vuelva a ejecutar el programa." << std::endl;
+			exit(1);
+		}
+		in.clear();
+	}
 	return in;
 }
 
@@ -39,10 +112,19 @@ void vehiculoCls::imprimirEncabezado(std::ostream& out, const int numero) {
 }
 
 std::ostream& operator<< (std::ostream& out, const vehiculoCls& vehiculo) {
-	if(vehiculo.mTipo == eTipoVehiculo::automovil)
-		out << "Automovil";
-	else
-		out << "Motocicleta";
-	out << "," << vehiculo.mPlaca << "," << vehiculo.mMarca << "," << vehiculo.mModelo << "," << vehiculo.mColor << "," << vehiculo.mProducido;
+	switch(vehiculo.mTipo) {
+		case eTipoVehiculo::automovil:
+			out << "Automovil";
+			break;
+		case eTipoVehiculo::motocicleta:
+			out << "Motocicleta";
+			break;
+		case eTipoVehiculo::vacio:
+			return out;
+			break;
+	};
+	out << "," << vehiculo.mPlaca << "," << vehiculo.mMarca << "," << vehiculo.mModelo << "," << vehiculo.mColor << ",";
+	if(vehiculo.mTipo != eTipoVehiculo::vacio)
+		out << vehiculo.mProducido;
 	return out;
 }

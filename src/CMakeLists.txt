@@ -2,7 +2,7 @@ project(parqueo)
 
 cmake_minimum_required(VERSION 2.8)
 
-add_executable(parqueo vehiculo.cpp apartamento.cpp main.cpp)
+add_executable(parqueo vehiculo.cpp apartamento.cpp propietario.cpp main.cpp)
 set(CMAKE_BUILD_TYPE "Debug" CACHE STRING "Build type")
 set(CMAKE_CXX_FLAGS "--pedantic-errors -Wall -Wextra -Werror -ftabstop=4 -march=native -std=gnu++0x -fshow-column -ftabstop=4 -frounding-math -pipe ${FABIO_CXX_FLAGS}")
 set(CMAKE_CXX_FLAGS_DEBUG "-ggdb3 -DDEBUG")

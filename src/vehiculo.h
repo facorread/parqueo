@@ -22,6 +22,7 @@ class vehiculoCls;
 
 /// Define los tipos de vehículo que pueden ser parqueados.
 enum class eTipoVehiculo {
+	vacio,
 	automovil,
 	motocicleta
 };
@@ -34,7 +35,7 @@ class vehiculoCls {
 		std::string mPlaca;
 		/// Marca del vehículo: Renault, Nissan, Chevrolet.
 		std::string mMarca;
-		/// Modelo del vehículo: Sandero, Sentra, Corsa...
+		/// Modelo del vehículo: Spark, Sandero, Sentra, Corsa...
 		std::string mModelo;
 		/// Color del vehículo.
 		std::string mColor;

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2013-05-08T12:59:35</meta:creation-date><dc:title>facorreadCalc1</dc:title><meta:editing-duration>P0D</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:initial-creator>Fabio Correa</meta:initial-creator><meta:document-statistic meta:table-count="4" meta:cell-count="35" meta:object-count="0"/><meta:user-defined meta:name="Información 1"/><meta:user-defined meta:name="Información 2"/><meta:user-defined meta:name="Información 3"/><meta:user-defined meta:name="Información 4"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="facorreadCalc1" xlink:href="../../../.config/libreoffice/3/user/template/facorreadCalc1.ots" meta:date="2013-05-08T12:59:35"/></office:meta>
+ <office:meta><meta:creation-date>2013-05-08T12:59:35</meta:creation-date><dc:title>facorreadCalc1</dc:title><meta:editing-duration>P0D</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:initial-creator>Fabio Correa</meta:initial-creator><meta:document-statistic meta:table-count="4" meta:cell-count="72" meta:object-count="0"/><meta:user-defined meta:name="Información 1"/><meta:user-defined meta:name="Información 2"/><meta:user-defined meta:name="Información 3"/><meta:user-defined meta:name="Información 4"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="facorreadCalc1" xlink:href="../../../.config/libreoffice/3/user/template/facorreadCalc1.ots" meta:date="2013-05-08T12:59:35"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">12354</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">478</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">90196</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">1331</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -25,12 +25,12 @@
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">250</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Planilla inscripción parqueaderos">
-       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">3</config:config-item>
        <config:config-item config:name="CursorPositionY" config:type="int">1</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
@@ -42,7 +42,7 @@
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">250</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
@@ -59,7 +59,7 @@
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">250</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
@@ -76,7 +76,7 @@
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">250</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
@@ -84,7 +84,7 @@
      <config:config-item config:name="ActiveTable" config:type="string">Planilla inscripción parqueaderos</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">434</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">250</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
      <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
@@ -167,6 +167,267 @@
    <number:text>)</number:text>
    <style:map style:condition="value()&gt;=0" style:apply-style-name="N117P0"/>
   </number:currency-style>
+  <number:percentage-style style:name="N118">
+   <number:number number:decimal-places="4" number:min-integer-digits="1"/>
+   <number:text>%</number:text>
+  </number:percentage-style>
+  <number:date-style style:name="N120P0" style:volatile="true">
+   <number:month/>
+   <number:text>/</number:text>
+   <number:day/>
+   <number:text>/</number:text>
+   <number:year number:style="long"/>
+  </number:date-style>
+  <number:text-style style:name="N120">
+   <number:text-content/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N120P0"/>
+  </number:text-style>
+  <number:date-style style:name="N121">
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:currency-style style:name="N5117P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5117" number:language="en" number:country="US">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5117P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5118P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5118" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5118P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5120P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5120" number:language="en" number:country="US">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5120P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5121P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5121" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5121P0"/>
+  </number:currency-style>
+  <number:date-style style:name="N5122" number:language="en" number:country="US">
+   <number:month/>
+   <number:text>/</number:text>
+   <number:day/>
+   <number:text>/</number:text>
+   <number:year number:style="long"/>
+  </number:date-style>
+  <number:date-style style:name="N5123" number:language="en" number:country="US">
+   <number:day/>
+   <number:text>-</number:text>
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:date-style style:name="N5124" number:language="en" number:country="US">
+   <number:day/>
+   <number:text>-</number:text>
+   <number:month number:textual="true"/>
+  </number:date-style>
+  <number:date-style style:name="N5125" number:language="en" number:country="US">
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:time-style style:name="N5126" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text> </number:text>
+   <number:am-pm/>
+  </number:time-style>
+  <number:time-style style:name="N5127" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+   <number:text> </number:text>
+   <number:am-pm/>
+  </number:time-style>
+  <number:time-style style:name="N5128" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N5129" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:date-style style:name="N5130" number:language="en" number:country="US">
+   <number:month/>
+   <number:text>/</number:text>
+   <number:day/>
+   <number:text>/</number:text>
+   <number:year number:style="long"/>
+   <number:text> </number:text>
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+  </number:date-style>
+  <number:number-style style:name="N5132P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N5132" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5132P0"/>
+  </number:number-style>
+  <number:number-style style:name="N5134P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N5134" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5134P0"/>
+  </number:number-style>
+  <number:number-style style:name="N5137P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N5137P1" style:volatile="true" number:language="en" number:country="US">
+   <number:text> (</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N5137P2" style:volatile="true" number:language="en" number:country="US">
+   <number:text> - </number:text>
+  </number:number-style>
+  <number:text-style style:name="N5137" number:language="en" number:country="US">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N5137P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N5137P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N5137P2"/>
+  </number:text-style>
+  <number:currency-style style:name="N5140P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5140P1" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5140P2" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:text>- </number:text>
+  </number:currency-style>
+  <number:text-style style:name="N5140" number:language="en" number:country="US">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N5140P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N5140P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N5140P2"/>
+  </number:text-style>
+  <number:number-style style:name="N5143P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N5143P1" style:volatile="true" number:language="en" number:country="US">
+   <number:text> (</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N5143P2" style:volatile="true" number:language="en" number:country="US">
+   <number:text> -</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N5143" number:language="en" number:country="US">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N5143P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N5143P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N5143P2"/>
+  </number:text-style>
+  <number:currency-style style:name="N5146P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5146P1" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5146P2" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:text-style style:name="N5146" number:language="en" number:country="US">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N5146P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N5146P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N5146P2"/>
+  </number:text-style>
+  <number:time-style style:name="N5147" number:language="en" number:country="US">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N5148" number:language="en" number:country="US" number:truncate-on-overflow="false">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N5149" number:language="en" number:country="US">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long" number:decimal-places="1"/>
+  </number:time-style>
+  <number:number-style style:name="N5150" number:language="en" number:country="US">
+   <number:scientific-number number:decimal-places="1" number:min-integer-digits="3" number:min-exponent-digits="1"/>
+  </number:number-style>
   <style:style style:name="Default" style:family="table-cell"/>
   <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
@@ -204,12 +465,15 @@
    <style:table-row-properties style:row-height="0.478cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro2" style:family="table-row">
-   <style:table-row-properties style:row-height="0.441cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="0.453cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro3" style:family="table-row">
-   <style:table-row-properties style:row-height="0.427cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="0.439cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro4" style:family="table-row">
+   <style:table-row-properties style:row-height="0.427cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro5" style:family="table-row">
    <style:table-row-properties style:row-height="0.452cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
@@ -218,20 +482,34 @@
   <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" style:vertical-align="top"/>
    <style:paragraph-properties fo:text-align="start"/>
+   <style:text-properties style:text-position=""/>
   </style:style>
   <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:border-bottom="none" fo:border-left="0.06pt solid #000000" fo:border-right="none" fo:border-top="none"/>
+   <style:text-properties style:text-position=""/>
   </style:style>
-  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0cm"/>
+   <style:text-properties style:text-position="" style:font-name="Arial Narrow"/>
+  </style:style>
+  <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start"/>
+  </style:style>
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:border-bottom="none" fo:border-left="0.06pt solid #000000" fo:border-right="none" fo:border-top="none"/>
+  </style:style>
+  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
    <style:paragraph-properties fo:text-align="start" fo:margin-left="0cm"/>
    <style:text-properties style:font-name="Arial Narrow"/>
   </style:style>
-  <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
    <style:paragraph-properties fo:text-align="start" fo:margin-left="0cm"/>
   </style:style>
-  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
    <style:paragraph-properties fo:text-align="end" fo:margin-left="0cm"/>
    <style:text-properties style:font-name="Arial Narrow"/>
@@ -278,7 +556,7 @@
      <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2013-05-08">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="0000-00-00T12:59:34">?</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2013-05-15">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="0000-00-00T09:22:11">?</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -301,12 +579,17 @@
       <text:p>Escriba solamente el número de apartamento.</text:p>
      </table:error-message>
     </table:content-validation>
-    <table:content-validation table:name="val3" table:condition="of:cell-content-is-in-list(&quot;Automovil&quot;;&quot;Motocicleta&quot;)" table:allow-empty-cell="false" table:display-list="unsorted" table:base-cell-address="&apos;Planilla inscripción parqueaderos&apos;.L2">
+    <table:content-validation table:name="val3" table:condition="of:cell-content-is-in-list(&quot;Si&quot;;&quot;No&quot;)" table:allow-empty-cell="false" table:display-list="unsorted" table:base-cell-address="&apos;Planilla inscripción parqueaderos&apos;.K2">
+     <table:error-message table:message-type="stop" table:title="El propietario reside en el conjunto?" table:display="true">
+      <text:p>Valor de verdad: Si o No</text:p>
+     </table:error-message>
+    </table:content-validation>
+    <table:content-validation table:name="val4" table:condition="of:cell-content-is-in-list(&quot;Automovil&quot;;&quot;Motocicleta&quot;)" table:allow-empty-cell="false" table:display-list="unsorted" table:base-cell-address="&apos;Planilla inscripción parqueaderos&apos;.L2">
      <table:error-message table:message-type="stop" table:title="Vehículo" table:display="true">
       <text:p>Escoja un tipo de vehículo.</text:p>
      </table:error-message>
     </table:content-validation>
-    <table:content-validation table:name="val4" table:condition="of:cell-content-is-whole-number() and cell-content-is-between(1900,2015)" table:allow-empty-cell="false" table:base-cell-address="&apos;Planilla inscripción parqueaderos&apos;.Q2">
+    <table:content-validation table:name="val5" table:condition="of:cell-content-is-whole-number() and cell-content-is-between(1900,2015)" table:allow-empty-cell="false" table:base-cell-address="&apos;Planilla inscripción parqueaderos&apos;.Q2">
      <table:error-message table:message-type="stop" table:title="Año" table:display="true">
       <text:p>Escriba un año con 4 dígitos.</text:p>
      </table:error-message>
@@ -314,9 +597,9 @@
    </table:content-validations>
    <table:table table:name="Info" table:style-name="ta1" table:print="false">
     <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co2" table:default-cell-style-name="ce2"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce6"/>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1"/>
+     <table:table-cell table:style-name="ce4"/>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1" table:number-rows-repeated="1048574">
@@ -332,138 +615,256 @@
     <table:table-column table:style-name="co6" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co2" table:number-columns-repeated="1021" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Nombre 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Nombre 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Torre 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Apartamento 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Torre 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Apartamento 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Torre 3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Apartamento 3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
+      <text:p>Torre 4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string">
+      <text:p>Apartamento 4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
       <text:p>Residente</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Teléfono 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Teléfono 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Tipo vehículo 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Placa 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Marca 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Modelo 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Color 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Año 1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Tipo vehículo 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Placa 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Marca 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Modelo 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Color 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Año 2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Tipo vehículo 3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Placa 3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Marca 3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Modelo 3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Color 3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Año 3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Tipo vehículo 4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Placa 4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Marca 4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Modelo 4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Color 4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Año 4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" table:number-columns-repeated="986"/>
-     <table:table-cell table:style-name="ce4" table:number-columns-repeated="3"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro3" table:number-rows-repeated="1048574">
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:content-validation-name="val1"/>
-     <table:table-cell table:content-validation-name="val2"/>
-     <table:table-cell table:content-validation-name="val1"/>
-     <table:table-cell table:content-validation-name="val2"/>
-     <table:table-cell table:content-validation-name="val1"/>
-     <table:table-cell table:content-validation-name="val2"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:content-validation-name="val3"/>
-     <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:content-validation-name="val4"/>
-     <table:table-cell table:content-validation-name="val3"/>
-     <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:content-validation-name="val4"/>
-     <table:table-cell table:content-validation-name="val3"/>
-     <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:content-validation-name="val4"/>
-     <table:table-cell table:content-validation-name="val3"/>
-     <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:content-validation-name="val4"/>
-     <table:table-cell table:number-columns-repeated="989"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="986"/>
+     <table:table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string">
+      <text:p>Luis Pérez</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Andrea Díaz</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val1" office:value-type="float" office:value="3">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val2" office:value-type="float" office:value="555">
+      <text:p>555</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val1" office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val2" office:value-type="float" office:value="201">
+      <text:p>201</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
+     <table:table-cell table:content-validation-name="val3" office:value-type="string">
+      <text:p>Si</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Telefono 3334445</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Telefono 453Ext 2</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val4" office:value-type="string">
+      <text:p>Automovil</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PLACA1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Renault</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Model</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Azul</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val5" office:value-type="float" office:value="2001">
+      <text:p>2001</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val4" office:value-type="string">
+      <text:p>Motocicleta</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PLAMoto</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>AKT</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Tiger</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Negro</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val5" office:value-type="float" office:value="2007">
+      <text:p>2007</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:number-columns-repeated="987"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string">
+      <text:p>Marcos Tales</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:content-validation-name="val1" office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val2" office:value-type="float" office:value="401">
+      <text:p>401</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val1" office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val2" office:value-type="float" office:value="404">
+      <text:p>404</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
+     <table:table-cell table:content-validation-name="val3" office:value-type="string">
+      <text:p>No</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Tel 1111</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Tel 222 Exst</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val4" office:value-type="string">
+      <text:p>Motocicleta</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PLACA1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>AKT</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Mod</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Roja</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val5" office:value-type="float" office:value="2009">
+      <text:p>2009</text:p>
+     </table:table-cell>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:number-columns-repeated="987"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="1048572">
      <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:content-validation-name="val1"/>
      <table:table-cell table:content-validation-name="val2"/>
@@ -471,30 +872,59 @@
      <table:table-cell table:content-validation-name="val2"/>
      <table:table-cell table:content-validation-name="val1"/>
      <table:table-cell table:content-validation-name="val2"/>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
      <table:table-cell table:content-validation-name="val3"/>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:number-columns-repeated="987"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
+     <table:table-cell table:content-validation-name="val1"/>
+     <table:table-cell table:content-validation-name="val2"/>
      <table:table-cell table:content-validation-name="val3"/>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:content-validation-name="val4"/>
-     <table:table-cell table:content-validation-name="val3"/>
      <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
      <table:table-cell table:content-validation-name="val4"/>
-     <table:table-cell table:content-validation-name="val3"/>
      <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
      <table:table-cell table:content-validation-name="val4"/>
-     <table:table-cell table:number-columns-repeated="989"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:content-validation-name="val4"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:content-validation-name="val5"/>
+     <table:table-cell table:number-columns-repeated="987"/>
     </table:table-row>
    </table:table>
    <table:table table:name="Sheet2" table:style-name="ta1" table:print="false">
-    <table:table-column table:style-name="co2" table:number-columns-repeated="1024" table:default-cell-style-name="ce5"/>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="1024" table:default-cell-style-name="ce9"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
    </table:table>
    <table:table table:name="Sheet3" table:style-name="ta1" table:print="false">
-    <table:table-column table:style-name="co2" table:number-columns-repeated="1024" table:default-cell-style-name="ce5"/>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="1024" table:default-cell-style-name="ce9"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>

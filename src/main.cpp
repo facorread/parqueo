@@ -52,7 +52,18 @@ appCls app;
 
 void appCls::leerInscripciones() {
 	std::ifstream planillaInscripcion("planillaInscripcion.csv");
+	if(!planillaInscripcion) {
+		std::cerr << "No se pudo abrir la planilla de inscripciones planillaInscripcion.csv; por favor revise este archivo.\n";
+		std::exit(1);
+	}
 	planillaInscripcion.imbue(commaLocale);
+	planillaInscripcion >> std::noskipws;
+	while(planillaInscripcion.good()) {
+		planillaInscripcion.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		mPropietario.emplace_back();
+		planillaInscripcion >> mPropietario.back();
+		planillaInscripcion.ignore();
+	}
 }
 
 void appCls::operator()() {

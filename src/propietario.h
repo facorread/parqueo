@@ -24,12 +24,37 @@ class propietarioCls {
 		std::string mNombre1;
 		/// Nombre del segundo propietario.
 		std::string mNombre2;
-		/// Representa la lista de apartamentos del propietario.
-		typedef std::list<apartamentoCls> listaApartamentosCls;
-		/// Lista de apartamentos del propietario.
-		listaApartamentosCls mApartamento;
-		/// Representa la lista de vehículos.
-		typedef std::list<vehiculoCls> listaVehiculosCls;
-		/// Lista de vehículos del propietario.
-		listaVehiculosCls mVehiculo;
+		/// Primer apartamento.
+		apartamentoCls mApartamento1;
+		/// Segundo apartamento.
+		apartamentoCls mApartamento2;
+		/// Tercer apartamento.
+		apartamentoCls mApartamento3;
+		/// Cuarto apartamento.
+		apartamentoCls mApartamento4;
+		/// El propietario reside en el conjunto, si o no.
+		bool mResidente;
+		/// Teléfono de contacto 1.
+		std::string mTelefono1;
+		/// Teléfono de contacto 2.
+		std::string mTelefono2;
+		/// Primer vehículo del propietario.
+		vehiculoCls mVehiculo1;
+		/// Segundo vehículo del propietario.
+		vehiculoCls mVehiculo2;
+		/// Tercer vehículo del propietario.
+		vehiculoCls mVehiculo3;
+		/// Cuarto vehículo del propietario.
+		vehiculoCls mVehiculo4;
+		/// Operador para leer los datos de un propietario desde un archivo.
+		friend std::istream& operator>> (std::istream& in, propietarioCls& propietario);
+		/// Imprime el encabezado de apartamentos para elaborar la planilla.
+		static void imprimirEncabezado(std::ostream& out, const int numero);
+		/// Operator para imprimir los datos de un propietario a un archivo.
+		friend std::ostream& operator<< (std::ostream& out, const propietarioCls& propietario);
 };
+
+/// Operador para leer los datos de un propietario desde un archivo.
+std::istream& operator>> (std::istream& in, propietarioCls& propietario);
+/// Operator para imprimir los datos de un propietario a un archivo.
+std::ostream& operator<< (std::ostream& out, const propietarioCls& propietario);
